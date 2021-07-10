@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #2c2c2c;
+    font-weight: 500;
+    background-image: linear-gradient(#FCFCFC, #FBFBFB, #F5F5F5, #F0F0F0);
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #2c2c2c;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+.nav-btn {
+    background: #3a88ec;
+    padding: 15px 45px;
+    color: #fff;
+    margin-top: 0;
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+}
+
+.nav-btn:hover {
+    background: #fb609c;
+}
+
+.navigation-bar {
+    padding: 20px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.nav-img {
+    width: 120px;
+    float: left;
+}
+
+.nav-link {
+    text-align: right;
+    width: 1020px;
+    float: right;
+    transition: all .3s ease-in-out;
+    margin-top: -10px;
+
+}
+
+.nav-link ul {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0 18px;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link li:hover {
+    color: #fb609c;
+}
+
+.nav-link span {
+    font-size: 12px;
+    display: block;
+    margin: 0;
+    line-height: 1.1;
+    color: gainsboro;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link li:hover span {
+    color: #fb609c;
+}
+
+.row {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.col-6 {
+    width: 45%;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.col-3 {
+    width: 21%;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.col-4 {
+    width: 20%;
+    display: inline-block;
+    padding: 90px 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 900;
+    color: #303669;
+    line-height: 1.1;
+}
+
+.title-1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: #303669;
+}
+
+.p-lead {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.learn-btn {
+    background: #ff3e81;
+    padding: 15px;
+    border-radius: 30px;
+    width: 10em;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.learn-btn:hover {
+    background: #3a88ec;
+}
+
+
+
+.neture-img img {
+    max-width: 100%;
+    padding-left: 170px;
+    padding-bottom: 20px;
+}
+
+.education-section {
+    margin: 100px 0;
+
+}
+
+.education-section .col-3 {
+    text-align: center;
+}
+
+
+
+
+.our-service {
+    padding: 20px 0;
+}
+
+
+.btn-2 {
+    background: #3a88ec;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 40px;
+    transition: all .3s ease-in-out;
+}
+
+.btn-2:hover {
+    background: #ff3e81;
+}
+
+.sales-growth {
+    margin: 70px 0;
+}
+
+.pricing-section {
+    padding: 90px 0;
+}
+
+.price {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.back-1 {
+    background: #fff;
+    margin: 10px 20px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.back-1:hover {
+    box-shadow:
+        0 2px 1.6px rgba(0, 0, 0, 0.026),
+        0 4.5px 3.6px rgba(0, 0, 0, 0.038),
+        0 7.9px 6.3px rgba(0, 0, 0, 0.047),
+        0 12.5px 10px rgba(0, 0, 0, 0.055),
+        0 19.3px 15.5px rgba(0, 0, 0, 0.063),
+        0 30.1px 24.1px rgba(0, 0, 0, 0.072),
+        0 50px 40px rgba(0, 0, 0, 0.084),
+        0 100px 80px rgba(0, 0, 0, 0.11);
+
+}
+
+.active {
+    border: 5px dashed #303669;
+    box-shadow:
+        0 2px 1.6px rgba(0, 0, 0, 0.017),
+        0 4.5px 3.6px rgba(0, 0, 0, 0.024),
+        0 7.9px 6.3px rgba(0, 0, 0, 0.03),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 19.3px 15.5px rgba(0, 0, 0, 0.04),
+        0 30.1px 24.1px rgba(0, 0, 0, 0.046),
+        0 50px 40px rgba(0, 0, 0, 0.053),
+        0 100px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.our-client {
+    padding: 50px 0;
+}
+
+.clnt {
+    text-align: center;
+}
+
+.logo-section {
+    display: inline-block;
+}
+
+.logo-5 {
+    padding: 70px 20px;
+}
+
+.contact-section {
+    padding: 80px 0;
+}
+
+.footer-1 {
+    text-align: center;
+    padding: 50px 0;
+}
